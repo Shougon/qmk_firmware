@@ -22,9 +22,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 // Utility layer - RGB and multimedia control
 [L1] = LAYOUT_2_shifts(
 	KC_GESC, KC_F1, KC_F2, KC_F3, KC_F4, KC_F5, KC_F6, KC_F7, KC_F8, KC_F9, KC_F10, KC_F11, KC_F12, ____, ____,
-	____, RGB_TOG, RGB_MOD, RGB_M_K, RGB_M_R, ____, ____, ____, KC_INS, ____, KC_PSCR, ____, ____, ____,
+	____, RGB_TOG, RGB_MOD, RGB_SAI, RGB_SAD, ____, ____, ____, KC_INS, ____, KC_PSCR, ____, ____, ____,
 	____, RGB_HUI, RGB_HUD, RGB_VAI, RGB_VAD, ____, ____, ____, ____, ____, ____, ____, ____,
-	____, ____, RGB_SAI, RGB_SAD, ____, RESET, ____, ____, ____, ____, ____, ____, KC_MPLY, KC_PGUP, KC_MUTE,
+	____, ____, BL_TOGG, BL_INC, BL_DEC, ____, RESET, ____, ____, ____, ____, ____, KC_MPLY, KC_PGUP, KC_MUTE,
 	____, KC_CAPS, ____, ____, ____, ____, ____, ____, KC_HOME, KC_PGDN, KC_END),
 
 // Setup layer - Reset an additional "b" button
